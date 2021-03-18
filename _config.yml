@@ -43,7 +43,7 @@ flavor: "r"
 # Most workshops don't use extra pages. More information about extra
 # pages are included in the README:
 # https://github.com/carpentries/workshop-template#creating-extra-pages
-title: "Creating Geospatial Visualizations in R"
+title: "Intro to Geospatial Raster and Vector Data in R"
 
 
 #------------------------------------------------------------
