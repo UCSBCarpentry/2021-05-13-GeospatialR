@@ -33,16 +33,6 @@ And run 'make workshop-check' *before* committing to make sure that changes are 
 
 
 {% comment %}
-8< ============= For a workshop delete from here =============
-For a workshop please delete the following block until the next dashed-line
-{% endcomment %}
-
-
-<div class="alert alert-danger">
-<b>This workshop is designed for more intermediate users of R/Rstudio</b>
-
-{% comment %}
-8< ============================= until here ==================
 {% endcomment %}
 
 
