@@ -379,8 +379,20 @@ please preview your site before committing, and make sure to run
   Library Carpentry
   {% endif %}
   workshop,
-  you will need access to the software described below.
-  In addition, you will need an up-to-date web browser.
+  you will need to install the software listed below.
+<ul style="list-style-type:circle">
+  <li> <a href="https://www.rstudio.com/products/rstudio/download/">Rstudio version 1.2 or greater</a></li>
+  <li> <a href="https://cloud.r-project.org/">R version 4.0 or greater</a></li>
+  <li> <a href="https://cran.r-project.org/bin/windows/Rtools/">Rtools4.0</a> if you are a <b>Windows user</b>.This is crucial for packages to
+       build and work correctly in Rstudio </li>
+  <li> Mac users should check their <a href="https://developer.apple.com/xcode/">Xcode</a> versions or install the update from the App Store (free)</li>
+</ul>
+
+   You can download the <a href="https://ndownloader.figshare.com/articles/2009586/versions/10">Geospatial NEON dataset here</a>.
+   Please save it to your desktop for easy access during the workshop.
+<br>
+
+  In addition, you will need an up-to-date web browser like Chrome, Mozilla, or Microsoft Edge.
 </p>
 <p>
   We maintain a list of common issues that occur during installation as a reference for instructors
