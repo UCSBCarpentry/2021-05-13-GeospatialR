@@ -16,6 +16,8 @@ keypoints:
 source: Rmd
 ---
 
+# will a random comment force a re-build?
+
 ```{r setup, echo=FALSE}
 source("../bin/chunk-options.R")
 source("../setup.R")
