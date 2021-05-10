@@ -168,7 +168,7 @@ symbol of `shape` value.
 > > ggplot() + 
 > >   geom_sf(data = lines_HARV, aes(color = TYPE), show.legend = "line") + 
 > >   geom_sf(data = plot_locations, aes(fill = soilTypeOr), 
-> >           shape = 21, color = NA, show.legend = 'point') + 
+> >           shape = 21, color = "NA", show.legend = 'point') + 
 > >   scale_color_manual(name = "Line Type", values = road_colors,
 > >      guide = guide_legend(override.aes = list(linetype = "solid", shape = NA))) + 
 > >   scale_fill_manual(name = "Soil Type", values = blue_green,
