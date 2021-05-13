@@ -197,11 +197,11 @@ symbol of `shape` value.
 > > ggplot() + 
 > >   geom_sf(data = lines_HARV, aes(color = TYPE), show.legend = "line") + 
 > >   geom_sf(data = plot_locations, aes(fill = soilTypeOr), 
-> >           shape = 21, color = NA, show.legend = 'point') + 
+> >           shape = 21, color = "NA", show.legend = 'point') + 
 > >   scale_color_manual(name = "Line Type", values = road_colors,
 > >      guide = guide_legend(override.aes = list(linetype = "solid", shape = NA))) + 
 > >   scale_fill_manual(name = "Soil Type", values = blue_green,
-> >      guide = guide_legend(override.aes = list(linetype = "blank", shape = 21, colour = NA))) + 
+> >      guide = guide_legend(override.aes = list(linetype = "blank", shape = 21, colour = "NA"))) + 
 > >   ggtitle("NEON Harvard Forest Field Site") + 
 > >   coord_sf()
 > > ~~~
@@ -231,7 +231,7 @@ symbol of `shape` value.
 > > ggplot() + 
 > >   geom_sf(data = lines_HARV, aes(color = TYPE), show.legend = "line", size = 1) + 
 > >   geom_sf(data = plot_locations, aes(fill = soilTypeOr, shape = soilTypeOr),
-> >           show.legend = 'point', colour = NA, size = 3) + 
+> >           show.legend = 'point', colour = "NA", size = 3) + 
 > >   scale_shape_manual(name = "Soil Type", values = c(21, 22)) +
 > >   scale_color_manual(name = "Line Type", values = road_colors,
 > >      guide = guide_legend(override.aes = list(linetype = "solid", shape = NA))) + 
