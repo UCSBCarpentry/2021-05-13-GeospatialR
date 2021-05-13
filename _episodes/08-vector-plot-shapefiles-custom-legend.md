@@ -214,13 +214,6 @@ symbol of `shape` value.
 > > ~~~
 > > {: .warning}
 > > 
-> > 
-> > 
-> > ~~~
-> > Error in check.length(gparname): 'gpar' element 'fontsize' must not be length 0
-> > ~~~
-> > {: .error}
-> > 
 > > <img src="../fig/rmd-08-harv-plot-locations-bg-1.png" title="plot of chunk harv-plot-locations-bg" alt="plot of chunk harv-plot-locations-bg" width="612" style="display: block; margin: auto;" />
 > >
 > > If we want each soil to be shown with a different symbol, we can
@@ -249,13 +242,6 @@ symbol of `shape` value.
 > > Warning: Removed 21 rows containing missing values (geom_sf).
 > > ~~~
 > > {: .warning}
-> > 
-> > 
-> > 
-> > ~~~
-> > Error in check.length(gparname): 'gpar' element 'fontsize' must not be length 0
-> > ~~~
-> > {: .error}
 > > 
 > > <img src="../fig/rmd-08-harv-plot-locations-pch-1.png" title="plot of chunk harv-plot-locations-pch" alt="plot of chunk harv-plot-locations-pch" width="612" style="display: block; margin: auto;" />
 > {: .solution}
